@@ -1,0 +1,27 @@
+/* Importaciones de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Contenido de app.css */
+/* Ejemplo de @keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Ejemplo de media query */
+@media (min-width: 768px) {
+  .custom-class {
+    background-color: red;
+  }
+}
+
+/* Otras reglas personalizadas de app.css */
+.custom-class {
+  animation: fadeIn 1s ease-in-out;
+}
